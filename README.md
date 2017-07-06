@@ -1,6 +1,8 @@
 # LessThan3
 Dungeon-crawler RPG/Adventure game with an unusual story.
 
+![LessThan3 Main Menu](https://raw.githubusercontent.com/rionaldichandraseta/LessThan3/master/img/LT3_1.jpeg "LessThan3 Main Menu")
+
 ## Credits
 * [Agus Gunawan](https://github.com/agusgun)
 * [Felix Limanta](https://github.com/felixlimanta)
@@ -32,12 +34,14 @@ Make sure to adjust the **terminal's size** before launching the game. The game 
 
 To start the game, simply navigate to the game's `bin/LessThan3` directory and run the game by using the command `./LessThan3`
 
+_Please do not spam commands while the game is loading or showing animations to avoid further input lags._
+
 ## Gameplay
 The game controls are mostly by using WASD to navigate, and several other keys to access different menus. The controls are mostly displayed on-screen when they are accessible.
 
 The goal of the game is to defeat the boss of the dungeon (shown as Q in the map). Initially, the boss will be way stronger than the player, so the player would need to level up a lot before having a chance to defeat the boss. The game would be over if at any time the player reached 0 HP.
 
-In battle, there are three different moves. **A for Attract**, **B for Bore**, and **F for Flirt**. Okay, we just mix and match the words to suit the game's story about romance, but that is not important. See the following tables for more details.
+In battle, there are three different moves. **A for Attract**, **B for Bore**, and **F for Flirt**. Okay, we just mix and match the words to suit the game's story about romance, but that is not important. Each battle is divided into 10 rounds, and the player could do 4 moves in each round. Two out of four of the enemy's move will be shown to make it easier for the player to counter the enemy. See the following move matchup for more details.
 
 ### Move Matchup
 | Your Move | Enemy's Move | Effect                                                   |
@@ -53,10 +57,21 @@ In battle, there are three different moves. **A for Attract**, **B for Bore**, a
 | F         | F            | Both deals reduced damage.                               |
 
 ### Medicine
-The player would not regain any HP after a fight. The only way to regain HP is by leveling up or taking medicines (shown as M in the map). Keep in mind that the amount of medicine is fixed and no medicine will be added later in the game. Use these medicines wisely.
+The player would not regain any HP after a fight. The only way to regain HP is by taking medicines (shown as M in the map). Keep in mind that the amount of medicine is fixed and no medicine will be added later in the game. Use these medicines wisely.
 
 ### Attributes
 Player starts with 50 points in all attributes (**Strength, Defense, and Luck**). Strength (STR) increases the damage that your Attracts and Flirts do, defense (DEF) increases the player's total health, and luck (LUC) increases the chance of critical hits in battle.
 
+Player will gain 10 attribute point for leveling up. These points could be distributed freely on any attributes. However, the player could not reallocate the points once the changes have been confirmed. The game will save after the player confirms attribute placement.
+
 ### Skills
 There are 9 total skills in the game, 7 of which are passive skills, and 2 are active skills. Details about the skills could be read in-game.
+
+## In-game Screenshots
+![LessThan3 Map](https://raw.githubusercontent.com/rionaldichandraseta/LessThan3/master/img/LT3_2.jpeg "LessThan3 Map")
+
+![LessThan3 Attribute](https://raw.githubusercontent.com/rionaldichandraseta/LessThan3/master/img/LT3_3.jpeg "LessThan3 Attribute")
+
+![LessThan3 SkillTree](https://raw.githubusercontent.com/rionaldichandraseta/LessThan3/master/img/LT3_4.jpeg "LessThan3 SkillTree")
+
+![LessThan3 Battle](https://raw.githubusercontent.com/rionaldichandraseta/LessThan3/master/img/LT3_5.jpeg "LessThan3 Battle")
